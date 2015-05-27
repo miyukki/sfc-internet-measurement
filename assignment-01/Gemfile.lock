@@ -1,0 +1,51 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.6.1)
+    clbustos-rtf (0.4.2)
+    dirty-memoize (0.0.4)
+    distribution (0.7.2)
+    extendmatrix (0.4)
+    gnuplot (2.6.2)
+    minimization (0.2.3)
+      text-table (~> 1.2)
+    prawn (0.8.4)
+      prawn-core (>= 0.8.4, < 0.9)
+      prawn-core (>= 0.8.4, < 0.9)
+      prawn-layout (>= 0.8.4, < 0.9)
+      prawn-layout (>= 0.8.4, < 0.9)
+      prawn-security (>= 0.8.4, < 0.9)
+      prawn-security (>= 0.8.4, < 0.9)
+    prawn-core (0.8.4)
+    prawn-layout (0.8.4)
+    prawn-security (0.8.4)
+    prawn-svg (0.9.1.11)
+      prawn (>= 0.8.4)
+    reportbuilder (1.4.2)
+      clbustos-rtf (~> 0.4.0)
+      prawn (~> 0.8.4)
+      prawn-svg (~> 0.9.1)
+      text-table (~> 1.2)
+    rserve-client (0.3.1)
+    ruby-ole (1.2.11.8)
+    rubyvis (0.5.2)
+    spreadsheet (0.6.9)
+      ruby-ole (>= 1.0)
+    statsample (1.4.3)
+      awesome_print (~> 1.6)
+      dirty-memoize (~> 0.0.4)
+      distribution (~> 0.7)
+      extendmatrix (~> 0.3)
+      minimization (~> 0.2)
+      reportbuilder (~> 1.4)
+      rserve-client (~> 0.3)
+      rubyvis (~> 0.5.0)
+      spreadsheet (~> 0.6.5)
+    text-table (1.2.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gnuplot (~> 2.6.2)
+  statsample
